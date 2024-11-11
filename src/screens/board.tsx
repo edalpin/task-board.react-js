@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { tasksPromise } from '../api/tasks';
 import { Task } from '../types/Task';
+import { Card } from '../components/card/Card';
 
 export const Board = () => {
   const [tasks, setTasks] = useState<Task[]>([]);
@@ -13,7 +14,14 @@ export const Board = () => {
     <>
       <div>
         {tasks.map((task) => {
-          return <div>{task.title}</div>;
+          return (
+            <Card
+              task={task}
+              onEdit={() => {}}
+              onDelete={() => {}}
+              onViewMore={() => {}}
+            />
+          );
         })}
       </div>
     </>

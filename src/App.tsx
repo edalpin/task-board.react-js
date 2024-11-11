@@ -1,5 +1,4 @@
-import './App.scss';
-import { Board } from './screens/board';
+import { Board } from './screens/Board';
 
 function App() {
   return <Board />;
