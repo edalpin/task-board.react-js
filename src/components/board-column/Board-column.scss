@@ -1,0 +1,38 @@
+.board-column {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 10px;
+  padding: 15px;
+  margin-top: 7px;
+  background-color: #7090b01f;
+  border-radius: 16px;
+
+  // Board modifiers
+  &--to-do {
+    box-shadow: 0 -7px 0 0 #ef4444;
+  }
+  &--completed {
+    box-shadow: 0 -7px 0 0 #14b8a6;
+  }
+
+  // Header
+  &__header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  &__header-title {
+    color: #1f2937;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  // Content
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

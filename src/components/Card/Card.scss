@@ -17,7 +17,7 @@
     color: #6b7280;
     text-transform: uppercase;
     font-weight: 600;
-    size: 16px;
+    font-size: 16px;
   }
 
   &__sub-header-actions {
@@ -37,7 +37,7 @@
     flex-grow: 1;
     color: #1f2937;
     font-weight: 500;
-    size: 20px;
+    font-size: 20px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -47,7 +47,7 @@
   &__content {
     color: #6b7280;
     font-weight: 400;
-    size: 16px;
+    font-size: 16px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 2; /* number of lines to show */
