@@ -1,13 +1,10 @@
 import './App.css';
-import { DatePicker } from './components/custom/date-picker';
-import { Button } from './components/ui/button';
+import { SigIn } from './pages/sign-in';
 
 function App() {
   return (
     <>
-      <div className="bg-sky-50">holi</div>
-      <Button>asdasd</Button>
-      <DatePicker></DatePicker>
+      <SigIn></SigIn>
     </>
   );
 }
