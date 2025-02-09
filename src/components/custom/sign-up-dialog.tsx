@@ -18,11 +18,11 @@ import {
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog';
-import { Alert, AlertDescription, AlertTitle } from '../ui/alert';
+import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 import { AlertCircle } from 'lucide-react';
 import { MutationStatus } from '@tanstack/react-query';
 import { useEffect } from 'react';
-import { useToast } from '@/hooks/use-toast';
+import { useToast } from '@/hooks/custom/toast';
 
 export type SigUpDialogProps = {
   open: boolean;

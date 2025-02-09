@@ -10,7 +10,7 @@ import {
 import { useSignIn, useSignUp } from '@/hooks/mutations/auth';
 import { Alert, AlertDescription, AlertTitle } from '@/components/ui/alert';
 
-export const SigIn = () => {
+export const SignIn = () => {
   const [isSignUpDialogOpen, setIsSignUpDialogOpen] = useState(false);
   const signInMutation = useSignIn();
   const signUpMutation = useSignUp();
