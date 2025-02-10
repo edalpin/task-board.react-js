@@ -13,6 +13,8 @@ export default defineConfig({
       '@/api': path.resolve(__dirname, './src/api'),
       '@/types': path.resolve(__dirname, './src/types'),
       '@/hooks': path.resolve(__dirname, './src/hooks'),
+      '@/styles': path.resolve(__dirname, './src/styles'),
+      '@/contexts': path.resolve(__dirname, './src/contexts'),
     },
   },
 });
